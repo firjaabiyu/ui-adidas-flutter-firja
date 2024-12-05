@@ -1,3 +1,4 @@
+import 'package:adidas/auth/page/login.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -35,7 +36,7 @@ class Welcome extends StatelessWidget {
                 ),
                 TextButton(
                   onPressed: () {
-                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const navBar(),),);
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => const LoginPage(),),);
                   },
                   child: Container(
                     padding: EdgeInsets.symmetric(horizontal: 50, vertical: 10),

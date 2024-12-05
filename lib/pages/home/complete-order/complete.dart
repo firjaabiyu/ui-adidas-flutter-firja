@@ -45,7 +45,7 @@ class _completePageState extends State<completePage> {
               TextButton(
                 onPressed: () {
                   setState(() {
-                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => navBar()));
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => MainPage()));
                   });
                 },
                 child: Container(

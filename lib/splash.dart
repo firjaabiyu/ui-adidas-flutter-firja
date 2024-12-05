@@ -2,7 +2,7 @@ import 'package:adidas/welcome.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
-import 'preferences/storelogo.dart';
+import 'svg/storelogo.dart';
 
 class Splash extends StatefulWidget {
   const Splash({super.key});
